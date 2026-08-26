@@ -2,6 +2,10 @@
 
 A Simon-Says style memory game built on Arduino using a joystick, a 16x2 LCD, four LEDs, and a buzzer. Watch the sequence of directions play out, then repeat it back correctly to advance — each round adds one more step, and the game speeds up as you go.
 
+![Joystick Memory Game wiring guide showing the LCD, joystick, LEDs, potentiometer, and passive buzzer connected to an Arduino Uno](images/wiring-diagram.png)
+
+The diagram uses three separate panels so the wires do not overlap: LCD and contrast control, joystick input, and LEDs with the buzzer. Each panel shows the same Arduino Uno, not three different boards. The editable vector version is included at `images/wiring-diagram.svg`.
+
 ## Features
 
 - **Joystick-driven input** — push up/down/left/right to answer, center-return debouncing prevents double registers
